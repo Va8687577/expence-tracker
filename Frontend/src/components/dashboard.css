@@ -1,0 +1,187 @@
+/* Dashboard.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.summary-item {
+  text-align: center;
+  padding: 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.summary-item h2 {
+  margin-bottom: 10px;
+}
+
+.summary-item p {
+  font-size: 1.5rem; /* Make the total amount larger */
+  color: white;
+}
+
+.chart {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.chart-placeholder {
+  height: 200px;
+  background: #e7e7e7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.recent-transactions {
+  margin: 20px 0;
+}
+
+.recent-transactions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-transactions li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-transactions button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.recent-transactions button:hover {
+  background: #c82333;
+}
+
+.input-form {
+  margin: 20px 0;
+}
+
+.input-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form input,
+.input-form select {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.input-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input-form button:hover {
+  background: #0056b3;
+}
+
+.link-to-history {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: #28a745;
+}
+
+.btn-secondary:hover {
+  background: #218838;
+}
+
+.transaction-item {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+  background-color: #007bff; /* Blue for edit */
+}
+
+.btn-edit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-delete {
+  background-color: #dc3545; /* Red for delete */
+}
+
+.btn-delete:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

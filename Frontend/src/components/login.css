@@ -1,0 +1,130 @@
+/* Login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #00c6ff); /* Gradient background */
+  color: white; /* White text for better visibility on gradient background */
+}
+
+.login-form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Max width to keep it compact */
+}
+
+/* Heading styles */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Align labels to the left */
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333; /* Darker label color for contrast */
+}
+
+.form-control {
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  height: 50px;
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #6c757d; /* Disabled button color */
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link styles */
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Additional styles */
+.login-actions {
+  display: flex;
+  justify-content: space-between; /* Space between link and button */
+  align-items: center; /* Center vertically */
+  margin-top: 20px; /* Margin above the button */
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #007bff;
+  margin-right: 10px; /* Add space between the link and the button */
+}
+
+.text-danger {
+  color: #dc3545; /* Red for error messages */
+  font-weight: bold;
+}
+
+/* Register text */
+.register-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.register-text a {
+  font-weight: 500;
+  color: #007bff; /* Register link color */
+}
+
+/* Responsive styling adjustments */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px; /* Smaller heading on mobile */
+  }
+
+  .form-control {
+    height: 40px; /* Smaller input height on mobile */
+  }
+
+  button {
+    height: 40px; /* Smaller button height on mobile */
+  }
+}
