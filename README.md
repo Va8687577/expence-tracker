@@ -33,13 +33,13 @@ Expense Tracker is a React-based web application that helps you track your incom
 ## Screenshots
 
 ### Login 
-![Transaction History](assets/Screenshot/index.JPG)
+![login](assets/Screenshot/login.JPG)
 
 ### Register
-![Transaction History](assets/screenshots/register.png)
+![Register](assets/Screenshot/register.JPG)
 
 ### Dashboard
-![Dashboard View](assets/screenshots/dashboard.png)
+![Dashboard View](assets/Screenshot/dashboard.JPG)
 
 ### Transaction History
-![Transaction History](assets/screenshots/history.png)
+![Transaction History](assets/Screenshot/history.JPG)
