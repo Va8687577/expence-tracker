@@ -2,11 +2,11 @@
 Expense Tracker is a React-based web application that helps you track your income and expenses category-wise, such as salary, traveling, and more. It features a dynamic dashboard with a pie chart to visualize income and expense ratios, and a transaction history module to display all past transactions.
 
 <h2>Features</h2>
-<b>Add Transactions</b>: Record income or expense transactions with specific categories.
-<b>Dynamic Dashboard</b>: Visualize income vs. expenses through a pie chart.
-<b>Transaction History</b>: View and manage all past transactions.
-<b>Category-Wise Tracking</b>: Organize your finances by categories such as salary, traveling, or others.
-<b>Database Integration</b>: All transactions are stored in a MongoDB database.
+<b>Add Transactions</b>: Record income or expense transactions with specific categories.<br>
+<b>Dynamic Dashboard</b>: Visualize income vs. expenses through a pie chart.<br>
+<b>Transaction History</b>: View and manage all past transactions.<br>
+<b>Category-Wise Tracking</b>: Organize your finances by categories such as salary, traveling, or others.<br>
+<b>Database Integration</b>: All transactions are stored in a MongoDB database.<br>
 <h2>Pre Required</h2>
 <li>Install Node.js (v16 or later recommended).</li>
 <li>Install MongoDB and ensure it is running on your system or use a cloud-based MongoDB service like MongoDB Atlas.</li>
