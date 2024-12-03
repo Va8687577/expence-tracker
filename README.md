@@ -14,13 +14,14 @@ Expense Tracker is a React-based web application that helps you track your incom
 
 <h2>How To Set Up Backend and Frontend</h2>
 <ul>
-  <li><b>Database Name</b>: expencemgmtsystem</li>
+  <li><b>Database Name</b>: [View the .env file here](backend/.env)
+</li>
 </ul>
 <h3>How To Set Backend</h3>
 <li>Navigate to the Backend folder: cd backend</li>
 <li>Install dependencies: npm i</li>
 <li>Start the backend server: npm start</li>
-<h3>How To Set Backend</h3>
+<h3>How To Set Frontend</h3>
 <li>Navigate to the frontend folder:cd backend</li>
 <li>Install dependencies:npm i</li>
 <li>Start the frontend : npm start</li>
